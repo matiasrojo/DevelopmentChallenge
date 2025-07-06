@@ -172,7 +172,7 @@ namespace DevelopmentChallenge.Data.Tests
                 new Trapecio(8, 4, 5)
             };
 
-            var resultado = reporte.Generar(formas, new Italiano());
+            var resultado = reporte.Generar(formas, italiano);
 
             Assert.AreEqual(
                 "<h1>Rapporto delle forme</h1>2 Rettangoli | Area 26 | Perimetro 30 <br/>2 Trapezi | Area 46 | Perimetro 39,02 <br/>TOTAL:<br/>4 forme Perimetro 69,02 Area 72",
